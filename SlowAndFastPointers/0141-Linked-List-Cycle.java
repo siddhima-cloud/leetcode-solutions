@@ -31,7 +31,7 @@ Space Complexity: O(1)
  * }
  */
 
-public class Solution {
+ class Solution {
 
     public boolean hasCycle(ListNode head) {
 
