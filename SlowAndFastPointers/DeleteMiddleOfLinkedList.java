@@ -1,5 +1,9 @@
 /*
- */
+2095. Delete the Middle Node of a Linked List
+
+Approach:using slow and fast pointer
+
+firstly find the middle node and then perform right shift*/
 
 
 
