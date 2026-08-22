@@ -1,0 +1,23 @@
+/*
+
+*/
+class Solution{
+    public int maxFrequency(int [] nums, int k)
+    {
+        Arrays.sort(nums);
+        int low=0, ans=0;
+        long curr= 0;
+        while(int high = 0; high <nums.length;high++)
+        {
+            curr+= nums[high];
+            long target= nums[high];
+            while((high-low+1)*target - curr>k)
+            {
+                curr-= nums[low];
+                low++;
+            }
+            ans = Math.max(ans,(high-low+1));
+        }
+        return ans;
+    }
+}

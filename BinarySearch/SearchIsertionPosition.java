@@ -1,5 +1,5 @@
 /*
-35. Search Insert Position
+35. Search Insert Position (Easy)
 Important point to notes is that why do we return low as the position to be inserted when the element is not found in the list.
 this is because at low , everything on lefft of it is smaller than the element.
 
