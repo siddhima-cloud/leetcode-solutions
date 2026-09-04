@@ -1,5 +1,5 @@
 /*
-
+1838. Frequency of the Most Frequent Element
 */
 class Solution{
     public int maxFrequency(int [] nums, int k)
