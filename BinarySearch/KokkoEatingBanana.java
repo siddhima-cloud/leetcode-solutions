@@ -49,7 +49,10 @@ class Solution {
             long total_hours= 0;
             for(int j=0;j<piles.length;j++)
             {
-                total_hours+= (long)Math.ceil(piles[j]/(double)k);
+                // total_hours+= (long)Math.ceil(piles[j]/(double)k);
+                // instead of ceil function we can also use this logic:
+
+                
 
             }
             if(total_hours<=h)
