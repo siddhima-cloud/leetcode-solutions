@@ -1,5 +1,14 @@
 /*
+875. Koko Eating Bananas
 
+the commented part is first method in which we linearly search for minium speed starting from last.
+but that is insufficient approach because it takes O(n^2) times
+
+the next part is optimized solution using binary search.
+we have perfformed binary search because it is monotic . 
+for example if k=10 works than all the values<k , such as 6,7,8,9 are wrong and all the values>k are right/valid. so this showss that this is monotonic and hence binary earch can be applied.
+
+and remember we have take the total_hours as long to prevent Integer Overflow.
 
 */
 
