@@ -1,4 +1,10 @@
-class Solution {
+/*
+7. Reverse Integer
+
+main concept: handle integer overlow
+and handle negative numbers
+
+*/class Solution {
     public int reverse(int x) {
         return rev(x,0);
        
