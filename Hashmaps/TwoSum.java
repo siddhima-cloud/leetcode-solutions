@@ -66,7 +66,30 @@ return new int []{-1,-1};
 */
 
 // METHOD 4: TWO POINTERS + PRE SORTING
-
+// Method 4: pre sorting + two pointer
+ArrayList<int[]> ans = new ArrayList<>();
+for(int i=0;i<nums.length;i++)
+{
+    ans.add(new int[]{nums[i],i});
+}
+Collections.sort(ans,(a,b)->Integer.compare(a[0], b[0]));
+int i=0,j=nums.length-1;
+while(i<j)
+{
+    if(ans.get(i)[0]+ans.get(j)[0]==target)
+    {
+        return new int []{ans.get(i)[1],ans.get(j)[1]};
+    }
+    else if(ans.get(i)[0]+ans.get(j)[0]<target)
+    {
+        i++;
+    }
+    else
+    {
+        j--;
+    }
+}
+return new int []{-1,-1};
 
 
     }
