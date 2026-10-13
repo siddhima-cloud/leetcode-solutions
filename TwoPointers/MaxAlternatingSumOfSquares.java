@@ -1,4 +1,9 @@
-class Solution {
+/*
+
+3727. Maximum Alternating Sum of Squares
+*/
+import java.util.*;
+class MaxAlternatingSumOfSquares {
     public long maxAlternatingSum(int[] nums) {
        
         int i=0, j= nums.length-1;
