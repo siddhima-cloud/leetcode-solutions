@@ -1,4 +1,5 @@
 /*
+1876. Substrings of Size Three with Distinct Characters
 */
 import java.util.*;
 class Solution {
