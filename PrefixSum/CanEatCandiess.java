@@ -1,4 +1,7 @@
-class CanEatCandy {
+/*
+1744. Can You Eat Your Favorite Candy on Your Favorite Day?
+*/
+public class CanEatCandiess {
     public boolean[] canEat(int[] candiesCount, int[][] queries) {
         long [] prefix= new long[candiesCount.length];
         prefix[0]=candiesCount[0];

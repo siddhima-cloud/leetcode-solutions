@@ -1,3 +1,9 @@
+/*
+
+2848. Points That Intersect With Cars
+
+uses the concept of efficient ranging 
+*/
 class Solution {
     public int numberOfPoints(List<List<Integer>> nums) {
 
