@@ -1,5 +1,5 @@
 /*
-
+2269. Find the K-Beauty of a Number
 */
 class divisorSubstring {
     public int divisorSubstrings(int num, int k) {
