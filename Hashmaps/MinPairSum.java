@@ -1,5 +1,5 @@
 /*
-
+    1877. Minimize Maximum Pair Sum in Array
 */
 import java.util.HashMap;
 import java.util.Map;
