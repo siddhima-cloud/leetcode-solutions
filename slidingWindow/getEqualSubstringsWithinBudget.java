@@ -1,3 +1,6 @@
+/*
+1208. Get Equal Substrings Within Budget
+*/
 class Solution {
     public int equalSubstring(String s, String t, int maxCost) {
 
